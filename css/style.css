@@ -1,0 +1,22 @@
+body{
+	width: 680px;
+	margin: 0 auto;
+}
+
+form input{
+	width: 450px;
+	margin: 10px auto;
+	display: block;
+}
+
+.tweets{
+	width: 100%;
+	line-height: 1.5
+}
+
+.tweets>div:nth-child(even){
+	background-color: #ccc;
+}
+.tweets>div:nth-child(odd){
+	background-color: white;
+}
